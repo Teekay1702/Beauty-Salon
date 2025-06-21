@@ -34,8 +34,7 @@
 .logo-text {
   font-size: 1.5rem;
   font-weight: bold;
-  background: linear-gradient(to right, #ec4899, #8b5cf6);
-  color: transparent;
+  color: black;
 }
 
 .nav-links {
