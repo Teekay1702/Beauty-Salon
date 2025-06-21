@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="navbar-inner">
         <div className="logo">
           <div className="logo-icon"><Sparkles /></div>
-          <span className="logo-text">Luxe Beauty</span>
+          <span className="logo-text">Boity's beauty bar</span>
         </div>
         <div className="nav-links">
           {navItems.map(item => (
