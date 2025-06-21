@@ -56,7 +56,7 @@
   font-weight: 800;
   margin-bottom: 1.5rem;
   background: linear-gradient(to right, #ec4899, #a855f7, #6366f1);
-  color: transparent;
+  color: black;
   animation: pulse 3s infinite;
 }
 

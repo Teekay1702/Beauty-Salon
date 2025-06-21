@@ -18,15 +18,6 @@ const HomePage = () => {
             </div>
           </div>
 
-          <h1 className="hero-title">
-            Discover Your
-            <br />
-            <span className="inner-glow">
-              Inner Glow
-              <div className="glow-effect"></div>
-            </span>
-          </h1>
-
           <p className="hero-subtitle">
             Where beauty meets artistry. Transform yourself at our premium salon experience.
           </p>
