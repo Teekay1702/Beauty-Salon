@@ -40,7 +40,7 @@ const HomePage = () => {
       </section>
 
       {/* Features Section */}
-      <section className="features-section">
+      <section>
         <div className="features-header">
           <h2>Why Choose Luxe Beauty?</h2>
           <p>Experience the difference with our premium services and expert stylists</p>
