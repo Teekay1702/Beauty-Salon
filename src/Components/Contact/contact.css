@@ -1,0 +1,144 @@
+.contact-page {
+  padding-top: 5rem;
+}
+
+.contact-hero {
+  padding: 5rem 1rem;
+  background: linear-gradient(to bottom right, #ffe4e6, #f3e8ff);
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 3rem;
+  background: linear-gradient(to right, #db2777, #9333ea);
+  color: transparent;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.contact-subtitle {
+  font-size: 1.25rem;
+  color: #4b5563;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  padding: 5rem 1rem;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.contact-form {
+  background: linear-gradient(to bottom right, #ffe4e6, #f3e8ff);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #ec4899;
+  outline: none;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(to right, #ec4899, #8b5cf6);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.submit-button:hover {
+  transform: scale(1.05);
+}
+
+.contact-info .info-section {
+  margin-bottom: 2rem;
+}
+
+.info-icon {
+  background: linear-gradient(to right, #ec4899, #8b5cf6);
+  padding: 0.75rem;
+  border-radius: 9999px;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.hours-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hours-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  color: #374151;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons button {
+  background: linear-gradient(to right, #ec4899, #8b5cf6);
+  color: white;
+  padding: 1rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icons button:hover {
+  transform: scale(1.1);
+}

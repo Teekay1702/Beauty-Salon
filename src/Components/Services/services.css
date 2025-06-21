@@ -1,0 +1,114 @@
+.services-page {
+  min-height: 100vh;
+  padding-top: 5rem;
+  font-family: sans-serif;
+}
+
+.services-hero {
+  padding: 5rem 1rem;
+  background: linear-gradient(to bottom right, #fdf2f8, #f3e8ff);
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #db2777, #9333ea);
+  color: transparent;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #4b5563;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.services-grid-section {
+  background: white;
+  padding: 5rem 1rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.service-category-card {
+  background: linear-gradient(to bottom right, #fafafa, #f3f4f6);
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.service-category-card:hover {
+  transform: scale(1.03);
+}
+
+.service-category-title {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background: linear-gradient(to right, #db2777, #f43f5e);
+  color: white;
+  border-radius: 999px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.service-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1rem;
+}
+
+.service-item:last-child {
+  border-bottom: none;
+}
+
+.service-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-price {
+  color: #db2777;
+  font-weight: bold;
+}
+
+.book-cta {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.book-cta button {
+  padding: 1rem 2.5rem;
+  background: linear-gradient(to right, #db2777, #9333ea);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 10px 20px rgba(219, 39, 119, 0.25);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.book-cta button:hover {
+  transform: scale(1.05);
+}
