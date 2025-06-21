@@ -35,7 +35,7 @@ const ContactPage = () => (
 
           <div className="form-group">
             <label>Phone</label>
-            <input type="tel" placeholder="(555) 123-4567" />
+            <input type="tel" placeholder="" />
           </div>
 
           <div className="form-group">
@@ -46,7 +46,6 @@ const ContactPage = () => (
               <option>Facial Treatments</option>
               <option>Nail Services</option>
               <option>Body Treatments</option>
-              <option>Multiple Services</option>
             </select>
           </div>
 
@@ -65,11 +64,6 @@ const ContactPage = () => (
           <div className="info-section">
             <h2>Visit Our Salon</h2>
             <div className="info-item">
-              <div className="info-icon"><MapPin /></div>
-              <div>
-                <h3>Address</h3>
-                <p>123 Beauty Boulevard<br />Luxury District, NY 10001<br />United States</p>
-              </div>
             </div>
 
             <div className="info-item">
